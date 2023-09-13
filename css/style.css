@@ -1,0 +1,154 @@
+/* common css style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
+/* nav styles */
+nav {
+    padding: 16px 0;
+    position: absolute;
+    width: 100%;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .container .menu-btn {
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+
+nav .container .menu-btn .menu ul {
+    display: flex;
+    column-gap: 32px;
+
+}
+
+
+nav .container .menu-btn .menu ul li a {
+    color: #BBBBCB;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    transition: .4s;
+
+
+}
+
+nav .container .menu-btn .menu ul li .active {
+    color: white;
+}
+
+nav .container .menu-btn .menu ul li a:hover {
+    color: white;
+}
+
+nav .container .menu-btn .btn a {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 16px 48px;
+    border: 2px solid rgba(244, 246, 252, 0.37);
+    border-radius: 41px;
+}
+
+/* banner styles part */
+#banner-part {
+    background: var(--Tint-blue, #1C1E53);
+    padding: 284px 0 195px;
+}
+
+#banner-part .container {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+
+#banner-part .container .left {
+
+    width: 50%;
+}
+
+#banner-part .container .left h1 {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+}
+
+#banner-part .container .left p {
+    color: var(--White, rgba(255, 255, 255, 0.7));
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 21px;
+    margin-bottom: 42px;
+}
+
+#banner-part .container .left .btn .first {
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    padding: 12px 56px;
+    border-radius: 41px;
+    background: #FCD980;
+    margin-right: 40px;
+}
+
+#banner-part .container .left .btn .second {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#banner-part .container .left .btn .second i {
+    margin-left: 16px;
+}
+
+#banner-part .container .right {
+    width: 50%;
+}
+
+#banner-part .container .right img {
+    width: 100%;
+}
