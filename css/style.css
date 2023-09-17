@@ -19,7 +19,7 @@ ul {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1280px;
     margin: 0 auto;
 
 }
@@ -151,4 +151,84 @@ nav .container .menu-btn .btn a {
 
 #banner-part .container .right img {
     width: 100%;
+}
+
+/* work styles */
+#work-part {
+    background: #F4F6FC;
+    padding: 127px 0 128px;
+}
+
+#work-part .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#work-part .container .left {
+    width: 515px;
+}
+
+#work-part .container .left h2 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+#work-part .container .left p {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 405px;
+    margin: 16px 0;
+}
+
+#work-part .container .left a {
+    color: #2405F2;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#work-part .container .left a i {
+    margin-left: 13px;
+}
+
+#work-part .container .right {
+    width: 733px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 32px;
+}
+
+#work-part .container .right .work {
+    width: 296px;
+}
+
+#work-part .container .right .work h3 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    margin: 16px 0 8px;
+}
+
+#work-part .container .right .work p {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
 }
