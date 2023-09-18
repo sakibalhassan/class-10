@@ -232,3 +232,165 @@ nav .container .menu-btn .btn a {
     font-weight: 400;
     line-height: 28px;
 }
+
+#project-part {
+    /* margin: 100px 0; */
+}
+
+#project-part .container .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+#project-part .container .title h2 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+#project-part .container .title a {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#project-part .container .title a i {
+    margin-left: 16px;
+}
+
+#project-part .container .main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#project-part .container .main .left {
+    width: 843px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+#project-part .container .main .left .overlay {
+    width: 396px;
+    height: 100%;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 35px 77px;
+    opacity: 1;
+    transition: .4s;
+    transform: translateX(-100%);
+}
+
+#project-part .container .main .left:hover .overlay {
+    opacity: 1;
+    transform: translateX(0);
+
+}
+
+#project-part .container .main .left .overlay h2 {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+#project-part .container .main .left .overlay p {
+    color: var(--White, hwb(0 100% 0% / 0.8));
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 16px 0 40px;
+    width: 293px;
+}
+
+#project-part .container .main .left .overlay a {
+    color: var(--Yellow, #FCD980);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#project-part .container .main .left .overlay a i {
+    margin-left: 16px;
+}
+
+#project-part .container .main .left img {
+    width: 100%;
+}
+
+#project-part .container .main .right {
+    width: 405px;
+}
+
+#project-part .container .main .right .top {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 32px;
+}
+
+#project-part .container .main .right .top img {
+    width: 100%;
+}
+
+#project-part .container .main .right .top .overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 56px 36px 45px;
+    transform: scale(0) rotate(360deg);
+    transition: 1s;
+}
+
+#project-part .container .main .right .top:hover .overlay {
+    transform: scale(1) rotate(0deg);
+}
+
+#project-part .container .main .right .top .overlay h2 {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    width: 313px;
+    margin-bottom: 10px;
+}
+
+#project-part .container .main .right .top .overlay a {
+    color: var(--Yellow, #FCD980);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#project-part .container .main .right .top .overlay a i {
+    margin-left: 16px;
+}
