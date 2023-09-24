@@ -471,6 +471,7 @@ nav .container .menu-btn .btn a {
 #clint-part {
     background-color: #F4F6FC;
     padding: 130px 0;
+    border: 1px solid rgb(0, 0, 0.20);
 }
 
 #clint-part .container {
@@ -545,3 +546,94 @@ nav .container .menu-btn .btn a {
 /* =====================================================
                   faq part styles
 ======================================================== */
+#faw-part {
+    background: #FFF;
+
+}
+
+#faw-part .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#faw-part .container .left {
+    width: 405px;
+}
+
+#faw-part .container .left h3 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    width: 328px;
+}
+
+#faw-part .container .left a {
+    color: var(--Royal-Blue, #2405F2);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 16px;
+}
+
+#faw-part .container .right {
+    width: 843px;
+}
+
+#faw-part .container .right ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0 32px 25px;
+    border-bottom: 1px solid #ECECF1;
+}
+
+#faw-part .container .right ul li .first h3 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+#faw-part .container .right ul li .first span {
+    color: var(--Royal-Blue, #2405F2);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+#faw-part .container .right ul li .first p {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#faw-part .container .right ul li:first-child {
+    padding: 8px 0 48px 25px;
+}
+
+#faw-part .container .right ul li:first-child .second i {
+    transform: rotate(45deg);
+}
+
+#faw-part .container .right ul li:last-child {
+    padding: 32px 0 0 25px;
+    border-bottom: 0;
+}
+
+#faw-part .container .right ul li .first {
+    display: flex;
+    column-gap: 53px;
+}
