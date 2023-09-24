@@ -407,6 +407,7 @@ nav .container .menu-btn .btn a {
 
 #feature-part .container .title {
     text-align: center;
+    margin-bottom: 37px;
 }
 
 #feature-part .container .title h5 {
@@ -463,3 +464,84 @@ nav .container .menu-btn .btn a {
     font-weight: 400;
     line-height: 28px;
 }
+
+
+
+/* =================clint part styles================== */
+#clint-part {
+    background-color: #F4F6FC;
+    padding: 130px 0;
+}
+
+#clint-part .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#clint-part .container .left {
+    width: 405px;
+}
+
+#clint-part .container .left h2 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    width: 327px;
+}
+
+#clint-part .container .left p {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 327px;
+}
+
+#clint-part .container .right {
+    width: 843px;
+}
+
+#clint-part .container .right h3 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+#clint-part .container .right .clint-smile {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    column-gap: 9px;
+}
+
+#clint-part .container .right .clint-smile h4 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#clint-part .container .right .clint-smile p {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: -6px;
+}
+
+
+/* =====================================================
+                  faq part styles
+======================================================== */
